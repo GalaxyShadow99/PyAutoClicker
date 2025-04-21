@@ -1,0 +1,6 @@
+# requirements.txt
+
+PyAutoGUI==0.9.54
+keyboard==0.13.5
+rich==13.7.1
+os0==2.0.1
