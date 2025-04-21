@@ -1,23 +1,24 @@
 # 🖱️ AutoClicker Python
 
-Un petit script Python stylé (et terminal-friendly) qui simule automatiquement des pressions de touches à intervalles aléatoires. Utilise `pyautogui`, `keyboard` et `rich` pour offrir une expérience fluide avec une interface en console colorée !
+A stylish and terminal-friendly Python script that automatically simulates key presses at random intervals. Uses `pyautogui`, `keyboard`, and `rich` to deliver a smooth experience with a colorful console interface!
 
 ---
 
-## ✨ Fonctionnalités
+## ✨ Features
 
-- 🔁 Clique automatique sur une touche au choix.
-- Configuration facile via un menu interactif.
-- Intervalles de clics aléatoires (min / max en ms).
-- 💾 Sauvegarde automatique de la config dans `datas.json`.
-- 🎨 Interface console stylée avec `rich`.
-- ⚠️ Lancement avec privilèges administrateur (requis pour certaines fonctions sur macOS/Linux).
+- 🔁 Automatically clicks (presses) a key of your choice.
+- Easy configuration via an interactive menu.
+- Random click intervals (min / max in ms).
+- 💾 Automatically saves your configuration in `datas.json`.
+- 🎨 Stylish console interface with `rich`.
+- ⚠️ Requires admin privileges to run (needed for some functions on macOS/Linux).
 
 ---
 
-## 📦 Dépendances
+## 📦 Dependencies
 
-Installe les dépendances via pip :
+Install the dependencies using pip:
 
 ```bash
 pip install pyautogui keyboard rich
+```
